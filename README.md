@@ -438,7 +438,7 @@ your screen — that column is how it will be marked.
 >
 > Try it, look at the screen, then put it back.
 
-Rule 3 is designed to override Rule 1 so that an empty room lights up if it overheats. If R3 is evaluated first, R1 will run afterwards and overwrite the lamp status—turning the lamp back OFF if the overheating room is unoccupied.
+Rule 3 is designed to override Rule 1 so that an empty room lights up if it overheats. If R3 is evaluated first, R1 will run afterwards and overwrite the lamp status turning the lamp back off if the overheating room is unoccupied.
 ---
 
 *A house is an array. A room is a struct. A light switch is one bit.
